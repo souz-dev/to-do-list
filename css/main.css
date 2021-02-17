@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: rgba(89, 178, 238, 0.2);
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+i {
+  font-size: 20px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.to-do-container {
+  margin-top: 70px;
+  flex-flow: nowrap;
+  overflow-y: auto;
+}
+.to-do-list {
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.to-do-list-config {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.to-do-icon-btn {
+  padding: 2px 4px;
+  margin: 0 5px;
+  border: solid 1px #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  display: inline;
+  cursor: pointer;
+}
+.to-do-icon-btn:hover {
+  border-color: white;
+  background-color: #007bff;
+  color: white;
+}
+.to-do-list-title {
+  margin: 15px 0;
+}
+.to-do-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.to-do-list-config .to-do-icon-btn {
+  border-color: white;
+  background-color: #4a627c;
+  color: white;
+}
+.to-do-list-config .to-do-icon-btn:hover {
+  border-color: #4a627c;
+  background-color: white;
+  color: #4a627c;
+}
+.to-do {
+  background-color: rgba(172, 211, 236, 0.295);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 5px;
+}
+.status-container {
+  display: inline-flex;
+}
+.status {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+}
+.status:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.to-do-text {
+  padding: 15px 0;
+  margin: 0;
+}
